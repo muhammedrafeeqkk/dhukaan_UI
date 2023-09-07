@@ -10,8 +10,7 @@ class ScreeInformation extends StatelessWidget {
     iconcolor,
   }) {
     return ListTile(
-      leading: 
-      Icon(
+      leading: Icon(
         Iconr,
         size: 30,
       ),
@@ -51,7 +50,7 @@ class ScreeInformation extends StatelessWidget {
                     icontailing: Icons.navigate_next),
                 button(
                     buttontext: 'Whatsapp Chat Suppot',
-                    Iconr: Icons.whatsapp,
+                    Iconr: Icons.abc,
                     icontailing: Icons.toggle_on_rounded,
                     iconcolor: Colors.blue),
                 button(
@@ -62,7 +61,7 @@ class ScreeInformation extends StatelessWidget {
                 button(buttontext: 'Sign Out', Iconr: Icons.logout),
               ],
             ),
-            Column(
+            const Column(
               children: [
                 Text(
                   'version',
